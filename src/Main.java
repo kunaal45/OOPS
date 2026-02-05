@@ -1,5 +1,7 @@
 import Classes_And_Objects.Student;
 import Oops.Encapsulation;
+import Oops.Dog;
+import Oops.Inheritance;
 
 public class Main {
   public static void main(String[] args) {
@@ -16,5 +18,10 @@ public class Main {
     System.out.println(en.getName());
     en.setAge(21);
     System.out.println(en.getAge());
+
+    //Inheritance -> Single
+    Inheritance d = new Dog();
+    d.eat();
+    d.sleep();
   }
 }
