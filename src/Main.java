@@ -2,6 +2,7 @@ import Classes_And_Objects.Student;
 import Oops.Encapsulation;
 import Oops.Dog;
 import Oops.Inheritance;
+import Oops.Polymorphism;
 
 public class Main {
   public static void main(String[] args) {
@@ -20,8 +21,13 @@ public class Main {
     System.out.println(en.getAge());
 
     //Inheritance -> Single
-    Inheritance d = new Dog();
+    Dog d = new Dog();
     d.eat();
     d.sleep();
+
+    //PolyMorphism -> Performed in that File
+
+    //Abstraction
   }
+
 }
